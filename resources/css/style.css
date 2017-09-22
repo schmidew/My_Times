@@ -1,0 +1,199 @@
+header {
+  display: flex;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+header img {
+  padding-right: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding-left: 20px;
+  color: MediumAquamarine;
+}
+
+.navigation {
+  padding-right: 20px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+nav a {
+  color: black;
+}
+
+
+
+h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.whole {
+  display: flex;
+  padding-top: 116px;
+  font-family: Georgia;
+  font-size: 17px;
+}
+
+.column-large {
+  display: flex;
+  flex-direction: column;
+  min-width: 630px;
+  margin-right: 32px;
+}
+
+.column-large div {
+
+}
+
+.column-medium {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  margin-right: 32px;
+}
+
+.column-medium div {
+
+}
+
+.column-small {
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+}
+
+.column-small div {
+
+}
+
+.phish {
+  display: flex;
+  background-image: url("C:/Program Files/Git/My_Times/resources/images/img-story-main.png");
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fall {
+  display: flex;
+  background-image: url("C:/Program Files/Git/My_Times/resources/images/img-story-2.png");
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.photo {
+  display: flex;
+  background-image: url("C:/Program Files/Git/My_Times/resources/images/img-story-3.png");
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cats {
+  display: flex;
+  background-image: url("C:/Program Files/Git/My_Times/resources/images/img-story-1.png");
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.photo-text {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#extra {
+  font-size: 40px;
+}
+
+.story {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+
+.stories-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebyside {
+  display: flex;
+  flex-direction: row;
+}
+
+.newsbites {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsbites h4 {
+  text-align: center;
+}
+
+.newsbites span {
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 15px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+}
+
+.info {
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
+}
+
+.info h6 {
+  display: flex;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 25px;
+}
